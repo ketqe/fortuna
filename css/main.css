@@ -1,0 +1,281 @@
+body,
+html {
+  margin: 0 110px 0 110px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.header {
+  background-color: rgba(220, 220, 220, 0.5);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 70px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 25px;
+}
+.logo1{
+  text-decoration: none;
+  color: #e2452a;
+}
+
+.nav {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-right: 30px;
+
+}
+
+.nav__link {
+  color: #e2452a;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 15px;
+
+ 
+}
+
+.section_1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.one_img {
+  width: 1480px;
+  height: 300px;
+}
+
+h4 {
+  font-size: 54px;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 22px;
+
+   width: 300px;
+  height: 300px;
+}
+
+.card_img {
+  width: 260px;
+  height: 260px;
+}
+
+.general_card {
+
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.name_card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/*карусель*/
+
+
+
+
+
+/*профиль*/
+
+
+.profile1{
+ display:flex;
+ justify-content:center;
+ margin-top:20px;
+font-size: 60px;
+
+}
+.input{
+width:100%;
+display:flex;
+align-items:center;
+flex-direction:column;
+margin-top:30px;
+}	
+
+.name{
+margin-top:20px;
+
+}
+
+.user{
+width:400px;
+height:60px;
+padding-left:20px;
+border-radius:25px;
+border:1px solid grey;
+}
+.profile-user{
+    width: 150px;
+    height: 150px;
+   
+}
+.profile_img{
+display: flex;
+align-items: center;
+flex-direction: column;
+margin-top: 50px;
+}
+
+button{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #fff;
+    margin-top: 20px;
+    width: 150px;
+    height: 75px;
+    border-radius: 50px;
+}
+.voity{
+    font-size: 20px;
+}
+
+
+
+
+/*каталог*/
+.product-image {
+    height: 200px;
+    width: 180px;
+}
+
+.product-card {
+    text-align: center;
+    margin:20px;
+    width:300px;
+    height:250px;
+   
+    
+}
+.product_new{
+   border: 1px solid grey;
+   border-radius: 30px;
+   box-shadow: 1px 1px 12px 1px rgba(0,0,0,0.92);
+   transition-delay: .2s;
+}
+.product_new:hover{
+    width: 310px;
+    height: 305px;
+}
+
+.product{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:80px;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*подвал*/
+
+
+.container6 {
+    font-family: "Montserrat", sans-serif;
+     background-color: rgba(220, 220, 220, 0.5);
+    color: black; 
+    margin-top: 130px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+
+.address {
+    margin: 0px 100px 10px 30px; 
+}
+
+.number {
+    margin: 0px 15px 10px 100px; 
+}
+
+.network {
+    margin: 0px 15px 10px 400px; 
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.vk_img {
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.github_img {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.infotxt {
+    margin: 40px 0px 40px 0px;
+}
+
+.network_txt { 
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left:20px;
+}
+
+.network_txt1 {
+    display: flex;
+    justify-content: center;
+    color:black;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 20px;  
+}
+
+.vk_github {
+    width: 50px;
+    height: 50px;
+}
+
+.network a:hover {
+    color: rgb(83, 74, 206);
+}
+
+
+
+
+
