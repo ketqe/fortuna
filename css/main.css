@@ -1,7 +1,10 @@
-body,
 html {
   margin: 0 110px 0 110px;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family:Sitka Small;
+}
+body{
+  margin: 0 110px 0 110px;
+  font-family:Sitka Small;
 }
 
 .header {
@@ -53,7 +56,7 @@ html {
   height: 300px;
 }
 
-h4 {
+.sale {
   font-size: 54px;
 }
 
@@ -88,7 +91,9 @@ h4 {
 /*карусель*/
 
 
-
+.container{
+    margin: 30px;
+}
 
 
 /*профиль*/
@@ -180,20 +185,13 @@ button{
     margin: 20px;
 }
 
+h3{
+    font-family: Sitka Small;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+p{
+      font-family: Sitka Small;
+}
 
 
 
